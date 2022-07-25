@@ -16,6 +16,7 @@
 		045D7ADB288E642F00420B90 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 045D7AD9288E642F00420B90 /* LaunchScreen.storyboard */; };
 		045D7AE6288E642F00420B90 /* TestgitpkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7AE5288E642F00420B90 /* TestgitpkTests.swift */; };
 		045D7AF1288E643000420B90 /* TestgitpkUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7AF0288E643000420B90 /* TestgitpkUITests.swift */; };
+		045D7B0C288E796400420B90 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 045D7B0B288E796400420B90 /* HomeViewController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -51,6 +52,7 @@
 		045D7AEC288E643000420B90 /* TestgitpkUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TestgitpkUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		045D7AF0288E643000420B90 /* TestgitpkUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestgitpkUITests.swift; sourceTree = "<group>"; };
 		045D7AF2288E643000420B90 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		045D7B0B288E796400420B90 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -109,6 +111,7 @@
 				045D7AD9288E642F00420B90 /* LaunchScreen.storyboard */,
 				045D7ADC288E642F00420B90 /* Info.plist */,
 				045D7AD4288E642400420B90 /* Testgitpk.xcdatamodeld */,
+				045D7B0B288E796400420B90 /* HomeViewController.swift */,
 			);
 			path = Testgitpk;
 			sourceTree = "<group>";
@@ -261,6 +264,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				045D7B0C288E796400420B90 /* HomeViewController.swift in Sources */,
 				045D7AD0288E642400420B90 /* ViewController.swift in Sources */,
 				045D7AD6288E642400420B90 /* Testgitpk.xcdatamodeld in Sources */,
 				045D7ACC288E642400420B90 /* AppDelegate.swift in Sources */,
