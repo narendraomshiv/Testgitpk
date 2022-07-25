@@ -22,6 +22,15 @@ class ViewController: UIViewController {
         namelbl.font = UIFont.boldSystemFont(ofSize: 24)
         view.addSubview(namelbl)
         
+        
+        let AnkushLbl = UILabel()
+        AnkushLbl.frame = CGRect(x: 20, y: 300, width: view.frame.size.width-40, height: 80)
+        AnkushLbl.text = "Popin sir Jai Shri Ram ji"
+        AnkushLbl.textColor = .white
+        AnkushLbl.textAlignment = .center
+        AnkushLbl.font = UIFont.boldSystemFont(ofSize: 24)
+        view.addSubview(AnkushLbl)
+        
     }
 
 
