@@ -19,7 +19,7 @@ class ViewController: UIViewController {
         namelbl.text = "Narender sir Jai Shri Ram ji"
         namelbl.textColor = .white
         namelbl.textAlignment = .center
-        namelb.font = UIFont.boldSystemFont(ofSize: 24)
+        namelbl.font = UIFont.boldSystemFont(ofSize: 24)
         view.addSubview(namelbl)
         
         
